@@ -20,7 +20,9 @@ Other Requirements<br>
 
 Links<br>
 • https://unsplash.com/developers <br>
-• https://dictionaryapi.dev/
+• https://dictionaryapi.dev/ <br><br>
+
+<img src="https://github.com/ruchiralkm/Simple-Dictionary/blob/main/dictionary.png">
 
 
 
