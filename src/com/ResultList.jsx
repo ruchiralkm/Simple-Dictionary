@@ -38,7 +38,7 @@ function ResultList() {
       {response && (
         <div>
           <h3 className="text-2xl font-bold mt-4">
-            Meaning and Definitions 👉
+            Meaning and Definitions 📖
           </h3>
           {response[0]?.meanings.map((meaning, index) => (
             <div key={index}>
@@ -50,47 +50,47 @@ function ResultList() {
               </p>
               <ul>
                 {meaning.definitions.map((definition, i) => (
-                  <li key={i}>{definition.definition}</li>
+                  <li key={i}>• {definition.definition}</li>
                 ))}
               </ul>
             </div>
           ))}
-          <h3 className="text-2xl font-bold mt-4">Examples 👉</h3>
+          <h3 className="text-2xl font-bold mt-4">Examples 📖 </h3>
           {response[0]?.meanings.map((meaning, index) => (
             <div key={index}>
               <ul>
                 {meaning.definitions.map((definition, i) =>
                   definition.example ? (
-                    <li key={i}>{definition.example}</li>
+                    <li key={i}>• {definition.example}</li>
                   ) : null
                 )}
               </ul>
             </div>
           ))}
-          <h3 className="text-2xl font-bold mt-4">Synonyms 👉</h3>
+          <h3 className="text-2xl font-bold mt-4">Synonyms 📖 </h3>
           {response[0]?.meanings.map((meaning, index) => (
             <div key={index}>
               <ul>
                 {meaning.synonyms && meaning.synonyms.length > 0 ? (
                   meaning.synonyms.map((synonym, i) => (
-                    <li key={i}>{synonym}</li>
+                    <li key={i}>• {synonym}</li>
                   ))
                 ) : (
-                  <p>No synonyms available.</p>
+                  <p>No synonyms available 😥</p>
                 )}
               </ul>
             </div>
           ))}
-          <h3 className="text-2xl font-bold mt-4">Antonyms 👉</h3>
+          <h3 className="text-2xl font-bold mt-4">Antonyms 📖 </h3>
           {response[0]?.meanings.map((meaning, index) => (
             <div key={index}>
               <ul>
                 {meaning.antonyms && meaning.antonyms.length > 0 ? (
                   meaning.antonyms.map((antonym, i) => (
-                    <li key={i}>{antonym}</li>
+                    <li key={i}>• {antonym}</li>
                   ))
                 ) : (
-                  <p>No antonyms available.</p>
+                  <p>No antonyms available 😥</p>
                 )}
               </ul>
             </div>
