@@ -10,6 +10,7 @@ Currently, two official plugins are available:
 ---
 <a href="https://react.dev/" target="_blank" rel="noreferrer"> <img src="https://github.com/Scar1109/skill-icons/blob/main/icons/React-Dark.svg" alt="react" width="40" height="40"/> </a>
 <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://github.com/Scar1109/skill-icons/blob/main/icons/TailwindCSS-Light.svg" alt="tailwindcss" width="40" height="40"/> <br>
+
 Navigate into the project directory (React + Vite) <br>
 • cd your-repo-name<br>
 • npm install<br>
