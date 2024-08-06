@@ -19,7 +19,7 @@ Navigate into the project directory (React + Vite) <br>
 
 Other Requirements<br>
 • Sign up at Unsplash and create a new application to obtain an API key.<br>
-• Replace "YOUR_API_KEY" with your actual Unsplash API access key.<br>
+• Replace "ENTER_YOUR_API_KEY" with your actual Unsplash API access key.<br>
 
 Links<br>
 • https://unsplash.com/developers <br>
